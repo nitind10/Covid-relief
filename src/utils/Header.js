@@ -1,11 +1,10 @@
 import React from 'react';
 // import {Container,Row,Col} from 'react-bootstrap';
-import Header from './utils/Header';
 
-function App() {
+function Header() {
   return (
-    <Header />
+      <div>Navbar</div>
   );
 }
 
-export default App;
+export default Header;
