@@ -3,6 +3,7 @@ import React from "react";
 // import Logo from "./Logo";
 import {Link} from "react-router-dom";
 // import {Navbar} from 'react-bootstrap';
+import {RiHeartPulseFill} from "react-icons/ri";
 import "../App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,23 +12,24 @@ function Nav() {
   return (
     <div className="navbar">
       <div className="nav-brand">
-        <Link to="/">
+        <Link to="/" className="nav-logo">
           {/* <img src="logo.jpeg" alt="logo" className="img"></img> */}
-          <p>Covid Relief</p>
+          <RiHeartPulseFill className="logo" />
+          <p>COVID RELIEF</p>
         </Link>
       </div>
       <div class="navlinks">
         <div className="navlink">
           <Link to="/about">
-            <p>About Us</p>
+            <p>ABOUT US</p>
           </Link>
         </div>
         <div className="navlink">
-          <p>Help</p>
+          <p>HELP</p>
         </div>
       </div>
       <div className="navlink">
-        <button className="btn">Donate</button>
+        <button className="btn">DONATE</button>
       </div>
       {/* <Donate /> */}
     </div>

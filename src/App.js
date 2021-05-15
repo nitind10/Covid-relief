@@ -1,13 +1,20 @@
 import React from "react";
-import Content from "./utils/Content";
+import hero from "./images/hero_image.svg";
+// import "../public/styles.css";
+// import Content from "./utils/Content";
 // import AboutUs from "./utils/AboutUs";
-
 
 function App() {
   return (
     <div className="App">
-      <Content />
-        <div>Home Page</div>
+      <div className="hero">
+        <div>
+          <img src={hero} alt="hero" />
+        </div>
+        <div>
+          <p className="hero-text">Title</p>
+        </div>
+      </div>
     </div>
   );
 }

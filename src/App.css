@@ -2,25 +2,3 @@
   text-align: center;
 }
 
-a{
-  text-decoration: none !important;
-  color:black !important;
-}
-
-a:hover{
-  text-decoration: none !important;
-  color:grey !important;
-}
-
-.navbar {
-  background-color: #1F2833;
-  display:flex;
-}
-
-.nav-brand img{
-
-}
-
-.navbar p{
-  color: #66FCF1;
-}
