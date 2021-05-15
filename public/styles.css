@@ -2,33 +2,43 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: #1F2833;
 }
 html {
   font-family: "Montserrat", sans-serif;
 }
 
-body {
-  background: #eee;
-}
-
 .navbar {
-  height: 100px;
-  margin-bottom: 160px;
+  display:flex;
+  justify-content: space-around;
+  margin:1rem;
+  align-items: center;
+  text-align: center;
 }
 
-.logo {
+.navlinks {
+  display:flex;
+}
+
+.navlink ,.nav-brand{
+  margin:1rem 4rem;
+}
+
+
+
+/* .logo {
   display: inline-block;
   margin: 50px;
-}
+} */
 
-.logo h1 {
+/* .logo h1 {
   font-family: "McLaren", cursive;
   font-weight: 200;
   font-size: 70px;
   display: inline-block;
-}
+} */
 
-.logo img {
+/* .logo img {
   width: 100px;
   height: 100px;
   border-radius: 20%;
@@ -42,28 +52,29 @@ body {
 
 .navlink p{
   font-size: 40px;
-}
-
+} */
+/* 
 .donate {
   display: inline-block;
   margin: 35px;
-}
+} */
 
 .btn {
   display: inline-block;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
-  border-radius: 0px;
-  font-family: Georgia;
-  color: #ffffff;
+  border-radius: 10px;
+  /* font-family: Georgia; */
+  color: #0B0C10;
   font-size: 40px;
-  background: #d9344f;
-  padding: 10px 20px 10px 20px;
+  background-color: #66FCF1 !important;
+  padding: 10rem 20rem;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #fa3c55;
+  background-color: #66FCF1 !important;
+  color: #1F2833;
   text-decoration: none;
 }
 
