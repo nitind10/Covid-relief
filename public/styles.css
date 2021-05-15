@@ -139,4 +139,37 @@ footer p {
 
 .hero {
   display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  /* padding: 5rem 0; */
+}
+
+.hero div {
+  width: 50%;
+}
+
+.hero img {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hero-content {
+  padding: 0 10rem 0 5rem;
+}
+
+.hero-text {
+  color: #66fcf1 !important;
+  text-align: left;
+  margin: 2rem 0;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.hero-body {
+  color: white !important;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 500;
 }
