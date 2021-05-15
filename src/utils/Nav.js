@@ -13,7 +13,7 @@ function Nav() {
           <p>COVID RELIEF</p>
         </Link>
       </div>
-      <div class="navlinks">
+      <div className="navlinks">
         <div className="navlink">
           <Link to="/about">
             <p>ABOUT US</p>

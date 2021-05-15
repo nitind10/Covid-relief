@@ -1,8 +1,6 @@
 import React from "react";
 import hero from "./images/hero_image3.svg";
-// import "../public/styles.css";
-// import Content from "./utils/Content";
-// import AboutUs from "./utils/AboutUs";
+import DailyData from "./utils/DailyData";
 
 function App() {
   return (
@@ -19,6 +17,7 @@ function App() {
           </p>
         </div>
       </div>
+      <DailyData />
     </div>
   );
 }

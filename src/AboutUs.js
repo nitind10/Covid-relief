@@ -13,21 +13,21 @@ function AboutUs() {
               University."
       />
 
-<Person
+      <Person
         name="Nitin Dahiya"
         img="logo.jpeg"
         text="Nitin Dahiya is a final year undergraduate of Mathematics and Computing at Delhi Technological 
               University."
       />
 
-<Person
+      <Person
         name="Jai Kumar Joshi"
         img="logo.jpeg"
         text="Jai Kumar Joshi is a final year undergraduate of Mathematics and Computing at Delhi Technological 
               University."
       />
 
-<Person
+      <Person
         name="Keshav Jindal"
         img="logo.jpeg"
         text="Keshav Jindal is a final year undergraduate of Mathematics and Computing at Delhi Technological 
