@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Content from "./Content";
-import Footer from "./Footer";
-import AboutUs from "./AboutUs";
+import Navbar from "./utils/Navbar";
+import Content from "./utils/Content";
+import Footer from "./utils/Footer";
+import AboutUs from "./utils/AboutUs";
 
 
 function App() {

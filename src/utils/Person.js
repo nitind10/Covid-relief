@@ -8,7 +8,7 @@ function Person(props){
                 <p>{props.text}</p>
             </div>
 
-            <img src={props.img}></img>
+            <img alt="person" src={props.img}></img>
         </div>
     );
 }

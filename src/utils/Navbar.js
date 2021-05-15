@@ -1,7 +1,7 @@
 import React from "react";
-import AboutUs from "./AboutUs";
+// import AboutUs from "./AboutUs";
 import Donate from "./Donate";
-import Help from "./Help";
+// import Help from "./Help";
 import Logo from "./Logo";
 
 function Navbar() {
