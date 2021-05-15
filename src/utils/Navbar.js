@@ -1,15 +1,19 @@
 import React from "react";
-// import AboutUs from "./AboutUs";
 import Donate from "./Donate";
-// import Help from "./Help";
 import Logo from "./Logo";
+import {Link} from "react-router-dom";
+import "../App.css";
 
 function Navbar() {
   return (
     <div className="navbar">
-      <Logo />
+      <Link to ="/">
+        <Logo />
+      </Link>
       <div className="navlink">
-        <p>About Us</p>
+        <Link to="/about">
+          <p>About Us</p>
+        </Link>
       </div>
       <div className="navlink">
         <p>Help</p>

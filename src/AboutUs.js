@@ -1,5 +1,5 @@
 import React from "react";
-import Person from "./Person";
+import Person from "./utils/Person";
 
 function AboutUs() {
   return (
