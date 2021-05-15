@@ -8,7 +8,8 @@ function Logo() {
 
   return (
     <div className="logo" onClick={handleClick}>
-      <img src="logo.jpeg" className="img"></img>
+      <img src="logo.jpeg" 
+      alt="logo" className="img"></img>
       <h1>Covid Relief</h1>
     </div>
   );
