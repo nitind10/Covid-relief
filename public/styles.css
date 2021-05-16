@@ -116,6 +116,19 @@ footer p {
   color: #ccc;
 }
 
+.datatable {
+  padding: 5rem;
+}
+
+.table {
+  border-radius: 5px !important;
+}
+
+.table-head * {
+  background-color: #66fcf1 !important;
+  color: #1f2833 !important;
+}
+
 /* 
 .person .box1 {
   display: inline-block;

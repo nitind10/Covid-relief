@@ -20,7 +20,7 @@ const __DEV__ = document.domain === "localhost";
 
 function App() {
   const [name, setName] = useState("");
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
   async function displayRazorpay() {
     const res = await loadScript(
@@ -61,10 +61,10 @@ function App() {
     paymentObject.open();
   }
 
-  const callback = (data) => {
-    console.log(data);
-    setData(data);
-  };
+  // const callback = (data) => {
+  //   console.log(data);
+  //   setData(data);
+  // };
 
   return (
     <div className="App">
@@ -88,7 +88,8 @@ function App() {
           </a>
         </div>
       </div>
-      <DailyData callback={callback} />
+      {/* <DailyData callback={callback} /> */}
+      <DailyData />
     </div>
   );
 }
