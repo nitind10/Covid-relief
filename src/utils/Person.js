@@ -7,8 +7,9 @@ function Person(props) {
         <p className="name">{props.name}</p>
         <p className="body">{props.text}</p>
       </div>
-
-      <img className="person-image" alt="person" src={props.img}></img>
+      <div className="image">
+        <img className="person-image" alt="person" src={props.img}></img>
+      </div>
     </div>
   );
 }
