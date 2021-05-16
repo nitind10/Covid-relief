@@ -20,6 +20,7 @@ const __DEV__ = document.domain === "localhost";
 
 function App() {
   const [name, setName] = useState("");
+  // const [data, setData] = useState([]);
 
   async function displayRazorpay() {
     const res = await loadScript(
@@ -59,6 +60,12 @@ function App() {
     const paymentObject = new window.Razorpay(options);
     paymentObject.open();
   }
+
+  // const callback = (data) => {
+  //   console.log(data);
+  //   setData(data);
+  // };
+
   return (
     <div className="App">
       <div className="hero">
@@ -81,6 +88,7 @@ function App() {
           </a>
         </div>
       </div>
+      {/* <DailyData callback={callback} /> */}
       <DailyData />
     </div>
   );

@@ -13,7 +13,7 @@ function AboutUs() {
           <Person
             name="Ashwin Sudheer"
             img="ashwin.JPG"
-            text="Ashwin Sudheer is a final year undergraduate of Computer Engineering at Delhi Technological 
+            text="Ashwin Sudheer is a final year undergraduate student of Computer Engineering at Delhi Technological 
                 University."
           />
         </div>
@@ -22,7 +22,7 @@ function AboutUs() {
           <Person
             name="Nitin Dahiya"
             img="nitin.jpeg"
-            text="Nitin Dahiya is a final year undergraduate of Mathematics and Computing at Delhi Technological 
+            text="Nitin Dahiya is a final year undergraduate student of Mathematics and Computing at Delhi Technological 
               University."
           />
         </div>
@@ -31,7 +31,7 @@ function AboutUs() {
           <Person
             name="Jai Kumar Joshi"
             img="Jai.jpeg"
-            text="Jai Kumar Joshi is a final year undergraduate of Mathematics and Computing at Delhi Technological 
+            text="Jai Kumar Joshi is a final year undergraduate student of Mathematics and Computing at Delhi Technological 
               University."
           />
         </div>
@@ -40,7 +40,7 @@ function AboutUs() {
           <Person
             name="Keshav Jindal"
             img="keshav.jpeg"
-            text="Keshav Jindal is a final year undergraduate of Mathematics and Computing at Delhi Technological 
+            text="Keshav Jindal is a final year undergraduate student of Mathematics and Computing at Delhi Technological 
               University."
           />
         </div>
